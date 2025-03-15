@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/wallpaperprincipal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FruitGame"
+        android:textSize="50dp" />
+
+    <ImageView
+        android:id="@+id/imagen_principal"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/manzana" />
+
+    <Button
+        android:id="@+id/Botonjugar"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/btn_jugar_background"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:text="Jugar" />
+
+    <Button
+        android:id="@+id/botonInstrucciones"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/btninstrucciones_background"
+        android:text="Instrucciones" />
+
+
+</LinearLayout>
